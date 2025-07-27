@@ -41,7 +41,7 @@ export async function main(ns) {
         else
             ns.tprint(`WARNING: "${fullLocalFilePath}" was not updated. (Currently running, or not located at ${remoteFilePath}?)`)
     }
-    ns.tprint(`[Edit by SK_] ` + 
+    ns.tprint(`[!SK_] ` + 
               `INFO: Pull complete.`);
     // Remove any temp files / scripts from the prior version
     ns.run(pathJoin(options.subfolder, `cleanup.js`));
